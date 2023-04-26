@@ -1,0 +1,160 @@
+
+.homepage{
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+}
+.Nav-Buttons{
+  align-content: left;
+  flex-wrap: wrap;
+  background-color: transparent;
+  color: white;
+  font-family: Helvetica;
+  font-weight: 500;
+  margin: 15px;
+  border: none;
+  margin-right: 10px;
+  
+}
+
+.nav{
+  position: absolute;
+  right: 10px;
+}
+
+.Logo{
+  Width: 15vh;
+}
+
+.about{
+  max-width: 100%;
+}
+.Headline{
+  font-family: Futura;
+  font-weight: 400;
+  font-size: 15vh;
+  color: white;
+  line-height: 110px;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  min-height: 55vh;
+  margin-left: 10vw;
+}
+
+.AboutMe{
+  color: white;
+  font-family: Helvetica;
+  font-weight: regular;
+  font-size: 3vh;
+  display: block;
+  line-height: 1.6;
+  padding: 0px;
+  position: absolute;
+  left: 10.5vw;
+  top: 45%;
+
+}
+
+.ShowMe{
+  background-color: white;
+  color: #F7A8AE;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 15px;
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+  display: block;
+  position: absolute;
+  left: 10.5vw;
+  top: 65%;
+  opacity: .9;
+
+}
+
+body{
+  background-image: linear-gradient(#ff969f,#FDE4E3,#FFC69F);
+  margin: 0px
+}
+
+.Profile{
+  width: 75vh;
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  right: 10vw;
+  padding-top: 20px;
+  max
+}
+
+
+
+
+.Nav-Buttons:hover {
+  opacity: .8;
+}
+
+.Nav-Buttons:active{
+  opacity: .5;
+}
+
+.ShowMe:hover{
+  opacity: .8;
+}
+
+.ShowMe:active{
+  opacity: .5;
+}
+
+.Nav-Buttons-Bottom:hover {
+  opacity: .8;}
+
+.Nav-Buttons-Bottom:active{
+  opacity: .5;}
+
+  .ShowMe:hover {
+    opacity: .8;}
+  
+  .ShowMe:active{
+    opacity: .5;}
+
+.brochure{
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  padding-top: 35px;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  transform: translateY(0px);
+
+}
+
+.Footer{
+  text-align: center;
+  background-color: white;
+  opacity: .9;
+  text-decoration: none;
+}
+
+.Footer img{
+height: 35px;
+margin-left: 5px;
+margin-right: 5px;
+margin: 5px;
+opacity: .8;
+
+}
+
+.Footer a{
+  text-decoration: none;
+}
+
+.Nav-Buttons-Bottom{
+}
+
+.PortfolioIcon-07{
+  width: 20px;
+}
